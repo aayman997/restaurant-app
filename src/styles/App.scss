@@ -59,10 +59,11 @@ header {
   flex-flow : row nowrap;
   gap       : 43px;
   height    : 100%;
+  max-width : 100vw;
 
   .items-card {
     flex      : 1 1 calc((100% / 3) * 2);
-    max-width : calc((100% / 3) * 2);
+    max-width : calc(((100% - 43px) / 3) * 2);
     @media screen and (max-width : 1024px) {
       flex      : 1 1 100%;
       max-width : 100%;
@@ -71,7 +72,7 @@ header {
 
   .shopping-box {
     flex          : 1 1 calc(100% / 3);
-    max-width     : calc(100% / 3);
+    max-width     : calc((100% - 43px) / 3);
     border        : 1px solid $lightGray;
     border-bottom : none;
     border-radius : 12px 12px 0 0;
