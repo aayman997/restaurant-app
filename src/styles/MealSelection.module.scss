@@ -1,0 +1,120 @@
+@import "vars";
+
+.sections {
+  height             : calc(100% - 102px);
+  overflow           : auto;
+  padding            : 60px 54px;
+  -ms-overflow-style : none;
+  scrollbar-width    : none;
+  @media screen and (max-width : 1024px) {
+    padding : 15px;
+  }
+
+  &::-webkit-scrollbar {
+    display : none;
+  }
+
+  .section-con {
+
+    .section-head {
+      display       : flex;
+      flex-flow     : row nowrap;
+      gap           : 12px;
+      align-items   : center;
+      margin-bottom : 10px;
+
+      span[class*='MuiBadge-root'] {
+        width         : 28px;
+        height        : 28px;
+        border-radius : 50%;
+        padding       : 0;
+        background    : #000;
+        color         : $white;
+        text-align    : center;
+        display       : inline-block;
+        line-height   : 28px;
+      }
+
+      button {
+        margin-left : auto;
+        opacity     : 0.65;
+      }
+    }
+  }
+}
+
+.dish-con {
+  padding       : 12px;
+  margin-bottom : 14px;
+  display       : flex;
+  flex-flow     : row nowrap;
+  gap           : 12px;
+  max-width     : 100%;
+  border-radius : 12px 12px 0 0;
+  border        : 3px solid transparent;
+  transition    : 0.2s ease-in-out border,
+  0.2s ease-in-out border-radius,
+  0.2s ease-in-out background;
+
+  &:not(:last-child) {
+    border-bottom : 1px solid $darkGray;
+  }
+
+  &[class*='active'] {
+    border        : 3px solid $primaryColor;
+    border-radius : 12px;
+    background    : transparent linear-gradient(96deg, $white 0%, #F5F2FF 100%) 0 0 no-repeat padding-box;
+  }
+
+  .dish-img {
+    background-repeat   : no-repeat;
+    background-position : center;
+    background-size     : cover;
+    width               : 72px;
+    height              : 72px;
+    flex                : 0 0 72px;
+    border-radius       : 8px;
+    @media screen and (max-width : 1024px) {
+      border-radius : 0;
+    }
+  }
+
+  .dish-details {
+    display   : flex;
+    flex-flow : column nowrap;
+    gap       : 10px;
+    flex      : 1 1 auto;
+    max-width : calc(100% - (72px + 12px));
+
+    .dish-more-details {
+      display     : flex;
+      flex-flow   : row nowrap;
+      align-items : center;
+      gap         : 20px;
+      @media screen and (max-width : 1024px) {
+        flex-direction : column;
+        align-items    : flex-start;
+        gap            : 5px;
+      }
+    }
+  }
+
+  .add-btn {
+    border-radius : 0;
+    font-size     : 14px;
+    padding       : 4px 25px;
+    border        : 1px solid $primaryColor;
+    position      : absolute;
+    inset         : auto 0 7px 50%;
+    transform     : translate(-50%, -50%);
+    background    : $white;
+  }
+}
+
+.restaurant-image {
+  background-repeat   : no-repeat;
+  background-position : center;
+  background-size     : cover;
+  height              : 180px;
+  border-radius       : 12px 12px 0 0;
+}

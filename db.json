@@ -1,0 +1,181 @@
+{
+  "restaurant": {
+    "id": "489",
+    "name": "Jawharat Esham Restaurent",
+    "img": "resturant-table.jpg",
+    "rate": 4.7,
+    "address": {
+      "state": "Dubai",
+      "city": "Phase 5",
+      "area": "Horus",
+      "apartment": "Wafi Mall",
+      "floor": "First Floor"
+    },
+    "location": "",
+    "cuisine": "Arabic Restaurent",
+    "dishes": [
+      {
+        "id": 1,
+        "name": "Cold Appetizers",
+        "items": [
+          {
+            "id": 165,
+            "name": "Hummus plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 30,
+            "rate": 4.9,
+            "img": "meal-1.jpg"
+          },
+          {
+            "id": 151,
+            "name": "Muttabal plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 20,
+            "rate": 4.9,
+            "img": "meal-2.jpg"
+          },
+          {
+            "id": 156,
+            "name": "Muttabal plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 50,
+            "rate": 4.9,
+            "img": "meal-3.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Hot Appetizers",
+        "items": [
+          {
+            "id": 415,
+            "name": "Fried Kebbah Plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.2,
+            "img": "meal-1.jpg"
+          },
+          {
+            "id": 152,
+            "name": "Chicken liver",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.1,
+            "img": "meal-2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Soup",
+        "items": [
+          {
+            "id": 498,
+            "name": "Fried Kebbah Plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.2,
+            "img": "meal-3.jpg"
+          },
+          {
+            "id": 564,
+            "name": "Chicken liver",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.1,
+            "img": "meal-2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sandwiches",
+        "items": [
+          {
+            "id": 256,
+            "name": "Fried Kebbah Plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.2,
+            "img": "meal-3.jpg"
+          },
+          {
+            "id": 489,
+            "name": "Chicken liver",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.1,
+            "img": "meal-1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Shawarma",
+        "items": [
+          {
+            "id": 165,
+            "name": "Fried Kebbah Plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.2,
+            "img": "meal-1.jpg"
+          },
+          {
+            "id": 654,
+            "name": "Chicken liver",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.1,
+            "img": "meal-2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Plates on oven",
+        "items": [
+          {
+            "id": 654,
+            "name": "Fried Kebbah Plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.2,
+            "img": "meal-2.jpg"
+          },
+          {
+            "id": 184,
+            "name": "Chicken liver",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.1,
+            "img": "meal-3.jpg"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Grilled",
+        "items": [
+          {
+            "id": 572,
+            "name": "Fried Kebbah Plate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.2,
+            "img": "meal-3.jpg"
+          },
+          {
+            "id": 985,
+            "name": "Chicken liver",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do... eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 40,
+            "rate": 4.1,
+            "img": "meal-2.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}

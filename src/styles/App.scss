@@ -1,0 +1,93 @@
+@import "vars";
+
+//html {
+//  scroll-behavior : smooth
+//}
+
+body {
+  min-height       : 100vh;
+  width            : 100vw;
+  text-transform   : capitalize;
+  background-color : #F6F9F9;
+}
+
+header {
+  padding       : 24px 0;
+  background    : $white;
+  box-shadow    : 0 0 6px rgba(0, 0, 0, 0.16);
+  position      : relative;
+  flex          : 0 0 105px;
+  margin-bottom : 57px;
+  @media screen and (max-width : 1024px) {
+    padding       : 5px 0;
+    flex          : 0 0 auto;
+    margin-bottom : 0;
+    box-shadow    : none;
+  }
+
+  .progress-bar {
+    color : $primaryColor;
+
+    .MuiLinearProgress-root::before {
+      color : $offWhite;
+    }
+  }
+
+  .stepper {
+    border        : 1px solid $lightGray;
+    border-radius : 100px;
+    padding       : 16px 24px;
+
+    .step {
+      font-size   : 14px;
+      font-weight : 700;
+      color       : $primaryColor;
+    }
+
+    .step-button {
+      width   : 14px;
+      height  : 14px;
+      padding : 0;
+    }
+  }
+
+
+}
+
+.page-content {
+  display   : flex;
+  flex-flow : row nowrap;
+  gap       : 43px;
+  height    : 100%;
+
+  .items-card {
+    flex      : 1 1 calc((100% / 3) * 2);
+    max-width : calc((100% / 3) * 2);
+    @media screen and (max-width : 1024px) {
+      flex      : 1 1 100%;
+      max-width : 100%;
+    }
+  }
+
+  .shopping-box {
+    flex          : 1 1 calc(100% / 3);
+    max-width     : calc(100% / 3);
+    border        : 1px solid $lightGray;
+    border-bottom : none;
+    border-radius : 12px 12px 0 0;
+    position      : relative;
+    background    : $white;
+    align-self    : self-start;
+    @media screen and (max-width : 1024px) {
+      display : none;
+    }
+
+    .waves {
+      position   : absolute;
+      inset      : auto 0 -19px 0;
+      z-index    : -1;
+      height     : 24px;
+      background : url("../assets/images/global/wave.svg") center/contain no-repeat;
+    }
+  }
+}
